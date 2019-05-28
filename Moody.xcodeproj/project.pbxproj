@@ -12,6 +12,25 @@
 		461691C22299A20C001124DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461691C02299A20C001124DE /* Main.storyboard */; };
 		461691C42299A210001124DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461691C32299A210001124DE /* Assets.xcassets */; };
 		461691C72299A210001124DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461691C52299A210001124DE /* LaunchScreen.storyboard */; };
+		4616922A2299AD7F001124DE /* Moody.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 461692282299AD7F001124DE /* Moody.xcdatamodeld */; };
+		461692382299B0F0001124DE /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461692372299B0F0001124DE /* Mood.swift */; };
+		4616923B2299B35C001124DE /* MoodyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616923A2299B35C001124DE /* MoodyStack.swift */; };
+		46169247229AF506001124DE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46169246229AF506001124DE /* RootViewController.swift */; };
+		4616924C229AF577001124DE /* SegueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616924B229AF577001124DE /* SegueHandler.swift */; };
+		4616924E229AF6AB001124DE /* MoodsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616924D229AF6AB001124DE /* MoodsTableViewController.swift */; };
+		46169250229AF6D7001124DE /* MoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4616924F229AF6D7001124DE /* MoodDetailViewController.swift */; };
+		46169252229AF702001124DE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46169251229AF702001124DE /* CameraViewController.swift */; };
+		46169255229AFE4B001124DE /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46169254229AFE4B001124DE /* MoodView.swift */; };
+		46169257229AFE67001124DE /* MoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46169256229AFE67001124DE /* MoodTableViewCell.swift */; };
+		46169259229AFE84001124DE /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46169258229AFE84001124DE /* CameraView.swift */; };
+		46304331229C3A3C00FCBDAE /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46304330229C3A3C00FCBDAE /* TableViewDataSource.swift */; };
+		46304333229C3A6500FCBDAE /* NSManagedObjectContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46304332229C3A6500FCBDAE /* NSManagedObjectContext+Extensions.swift */; };
+		46304335229C3A8000FCBDAE /* NSManagedObjectContext+Observers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46304334229C3A8000FCBDAE /* NSManagedObjectContext+Observers.swift */; };
+		46304337229C3A9B00FCBDAE /* Managed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46304336229C3A9B00FCBDAE /* Managed.swift */; };
+		46304339229C3AB000FCBDAE /* ManagedObjectObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46304338229C3AB000FCBDAE /* ManagedObjectObserver.swift */; };
+		4630433B229C3AD100FCBDAE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630433A229C3AD100FCBDAE /* Utilities.swift */; };
+		4630433D229C3AE800FCBDAE /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630433C229C3AE800FCBDAE /* CaptureSession.swift */; };
+		4630433F229C3B0100FCBDAE /* IconGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630433E229C3B0100FCBDAE /* IconGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +41,25 @@
 		461691C32299A210001124DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461691C62299A210001124DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		461691C82299A210001124DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461692292299AD7F001124DE /* Moody.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Moody.xcdatamodel; sourceTree = "<group>"; };
+		461692372299B0F0001124DE /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		4616923A2299B35C001124DE /* MoodyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyStack.swift; sourceTree = "<group>"; };
+		46169246229AF506001124DE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		4616924B229AF577001124DE /* SegueHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueHandler.swift; sourceTree = "<group>"; };
+		4616924D229AF6AB001124DE /* MoodsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsTableViewController.swift; sourceTree = "<group>"; };
+		4616924F229AF6D7001124DE /* MoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodDetailViewController.swift; sourceTree = "<group>"; };
+		46169251229AF702001124DE /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		46169254229AFE4B001124DE /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		46169256229AFE67001124DE /* MoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodTableViewCell.swift; sourceTree = "<group>"; };
+		46169258229AFE84001124DE /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		46304330229C3A3C00FCBDAE /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		46304332229C3A6500FCBDAE /* NSManagedObjectContext+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Extensions.swift"; sourceTree = "<group>"; };
+		46304334229C3A8000FCBDAE /* NSManagedObjectContext+Observers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedObjectContext+Observers.swift"; sourceTree = "<group>"; };
+		46304336229C3A9B00FCBDAE /* Managed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managed.swift; sourceTree = "<group>"; };
+		46304338229C3AB000FCBDAE /* ManagedObjectObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedObjectObserver.swift; sourceTree = "<group>"; };
+		4630433A229C3AD100FCBDAE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4630433C229C3AE800FCBDAE /* CaptureSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSession.swift; sourceTree = "<group>"; };
+		4630433E229C3B0100FCBDAE /* IconGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,11 @@
 		461691BB2299A20C001124DE /* Moody */ = {
 			isa = PBXGroup;
 			children = (
+				4630432F229C3A0F00FCBDAE /* Core Data Helpers */,
+				46169253229AFE2C001124DE /* Views */,
+				46169248229AF551001124DE /* Helpers */,
+				46169245229AF4DD001124DE /* View Controllers */,
+				461692392299B345001124DE /* Model */,
 				461691BC2299A20C001124DE /* AppDelegate.swift */,
 				461691BE2299A20C001124DE /* ViewController.swift */,
 				461691C02299A20C001124DE /* Main.storyboard */,
@@ -62,6 +105,60 @@
 				461691C82299A210001124DE /* Info.plist */,
 			);
 			path = Moody;
+			sourceTree = "<group>";
+		};
+		461692392299B345001124DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				461692282299AD7F001124DE /* Moody.xcdatamodeld */,
+				4616923A2299B35C001124DE /* MoodyStack.swift */,
+				461692372299B0F0001124DE /* Mood.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46169245229AF4DD001124DE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46169246229AF506001124DE /* RootViewController.swift */,
+				4616924D229AF6AB001124DE /* MoodsTableViewController.swift */,
+				4616924F229AF6D7001124DE /* MoodDetailViewController.swift */,
+				46169251229AF702001124DE /* CameraViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		46169248229AF551001124DE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4616924B229AF577001124DE /* SegueHandler.swift */,
+				4630433A229C3AD100FCBDAE /* Utilities.swift */,
+				4630433C229C3AE800FCBDAE /* CaptureSession.swift */,
+				4630433E229C3B0100FCBDAE /* IconGenerator.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		46169253229AFE2C001124DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46169254229AFE4B001124DE /* MoodView.swift */,
+				46169256229AFE67001124DE /* MoodTableViewCell.swift */,
+				46169258229AFE84001124DE /* CameraView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4630432F229C3A0F00FCBDAE /* Core Data Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				46304330229C3A3C00FCBDAE /* TableViewDataSource.swift */,
+				46304332229C3A6500FCBDAE /* NSManagedObjectContext+Extensions.swift */,
+				46304334229C3A8000FCBDAE /* NSManagedObjectContext+Observers.swift */,
+				46304336229C3A9B00FCBDAE /* Managed.swift */,
+				46304338229C3AB000FCBDAE /* ManagedObjectObserver.swift */,
+			);
+			path = "Core Data Helpers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +232,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46169257229AFE67001124DE /* MoodTableViewCell.swift in Sources */,
+				46304335229C3A8000FCBDAE /* NSManagedObjectContext+Observers.swift in Sources */,
+				461692382299B0F0001124DE /* Mood.swift in Sources */,
+				4630433D229C3AE800FCBDAE /* CaptureSession.swift in Sources */,
+				46169259229AFE84001124DE /* CameraView.swift in Sources */,
+				46169252229AF702001124DE /* CameraViewController.swift in Sources */,
 				461691BF2299A20C001124DE /* ViewController.swift in Sources */,
+				46304337229C3A9B00FCBDAE /* Managed.swift in Sources */,
+				46169255229AFE4B001124DE /* MoodView.swift in Sources */,
+				4616924E229AF6AB001124DE /* MoodsTableViewController.swift in Sources */,
+				46169247229AF506001124DE /* RootViewController.swift in Sources */,
+				4616924C229AF577001124DE /* SegueHandler.swift in Sources */,
+				4616922A2299AD7F001124DE /* Moody.xcdatamodeld in Sources */,
 				461691BD2299A20C001124DE /* AppDelegate.swift in Sources */,
+				4630433B229C3AD100FCBDAE /* Utilities.swift in Sources */,
+				4616923B2299B35C001124DE /* MoodyStack.swift in Sources */,
+				46304339229C3AB000FCBDAE /* ManagedObjectObserver.swift in Sources */,
+				46304331229C3A3C00FCBDAE /* TableViewDataSource.swift in Sources */,
+				46169250229AF6D7001124DE /* MoodDetailViewController.swift in Sources */,
+				4630433F229C3B0100FCBDAE /* IconGenerator.swift in Sources */,
+				46304333229C3A6500FCBDAE /* NSManagedObjectContext+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +452,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		461692282299AD7F001124DE /* Moody.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				461692292299AD7F001124DE /* Moody.xcdatamodel */,
+			);
+			currentVersion = 461692292299AD7F001124DE /* Moody.xcdatamodel */;
+			path = Moody.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 461691B12299A20B001124DE /* Project object */;
 }
