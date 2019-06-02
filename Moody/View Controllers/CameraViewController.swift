@@ -15,7 +15,7 @@ protocol CameraViewControllerDelegate: class {
 
 class CameraViewController: UIViewController {
     
-    @IBOutlet weak var cameraView: CameraView?
+    @IBOutlet weak var cameraView: CameraView!
     weak var delegate: CameraViewControllerDelegate!
     
     override func viewDidLoad() {
@@ -96,3 +96,4 @@ extension CameraViewController: UIImagePickerControllerDelegate, UINavigationCon
     }
     
 }
+

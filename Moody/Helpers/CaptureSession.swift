@@ -69,8 +69,8 @@ class CaptureSession: NSObject {
     fileprivate func setup() {
         #if !IOS_SIMULATOR
         session.sessionPreset = AVCaptureSession.Preset.photo
-        let discovery = AVCaptureDevice.DiscoverySession(__deviceTypes: [.builtInWideAngleCamera], mediaType: AVMediaTypeVideo, position: .back)
-        if let camera = discovery?.devices.first {
+        let discovery = AVCaptureDevice.DiscoverySession(deviceTypes: [.builtInWideAngleCamera], mediaType: AVMediaType.video, position: .back)
+        if let camera = discovery.devices.first {
             let input = try! AVCaptureDeviceInput(device: camera)
             if session.canAddInput(input) {
                 session.addInput(input)

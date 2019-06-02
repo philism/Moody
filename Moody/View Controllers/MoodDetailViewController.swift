@@ -43,7 +43,6 @@ class MoodDetailViewController: UIViewController {
         moodView?.colors = mood.colors
         navigationItem.title = mood.dateDescription
     }
-    
 }
 
 

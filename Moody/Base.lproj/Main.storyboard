@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Moody" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -27,7 +27,7 @@
         <!--Root View Controller-->
         <scene sceneID="LTk-3Z-Xqa">
             <objects>
-                <viewController id="7Ms-1h-cQU" customClass="RootViewController" customModule="Moody" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RootViewController" id="7Ms-1h-cQU" customClass="RootViewController" customModule="Moody" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kuv-ov-ozj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="width" secondItem="sfe-uC-uxb" secondAttribute="height" multiplier="16:9" id="TCS-PK-gRe"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="xLE-HN-fxb" kind="embed" id="aSe-lu-csS"/>
+                                    <segue destination="xLE-HN-fxb" kind="embed" identifier="embedCamera" id="aSe-lu-csS"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eqQ-mE-vu5">
@@ -56,10 +56,19 @@
                             <constraint firstItem="eqQ-mE-vu5" firstAttribute="leading" secondItem="bE2-19-Vwv" secondAttribute="leading" id="gGG-9F-jpx"/>
                             <constraint firstItem="bE2-19-Vwv" firstAttribute="trailing" secondItem="sfe-uC-uxb" secondAttribute="trailing" id="i0Q-w4-gdF"/>
                             <constraint firstItem="eqQ-mE-vu5" firstAttribute="top" secondItem="bE2-19-Vwv" secondAttribute="top" id="mtx-tM-pd1"/>
-                            <constraint firstItem="sfe-uC-uxb" firstAttribute="top" secondItem="eqQ-mE-vu5" secondAttribute="bottom" id="xSW-L0-fGU"/>
+                            <constraint firstItem="sfe-uC-uxb" firstAttribute="top" secondItem="eqQ-mE-vu5" secondAttribute="bottom" priority="900" id="xSW-L0-fGU"/>
+                            <constraint firstItem="sfe-uC-uxb" firstAttribute="bottom" secondItem="bE2-19-Vwv" secondAttribute="top" id="zz5-Jp-FXA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bE2-19-Vwv"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="zz5-Jp-FXA"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="hideCameraConstraint" destination="zz5-Jp-FXA" id="rGD-pv-6gS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zKD-5E-5jh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,13 +77,13 @@
         <!--Moods Table View Controller-->
         <scene sceneID="0Ya-so-kDh">
             <objects>
-                <tableViewController id="bBw-YT-Oih" customClass="MoodsTableViewController" customModule="Moody" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MoodsTableViewController" id="bBw-YT-Oih" customClass="MoodsTableViewController" customModule="Moody" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="Nhj-wa-6Nv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="436"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoodCell" id="Th0-jD-wnd" customClass="MoodTableViewCell" customModule="Moody" customModuleProvider="target">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoodCell" id="Th0-jD-wnd" customClass="MoodTableViewCell" customModule="Moody" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="22" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Th0-jD-wnd" id="aav-Er-4Ow">
@@ -82,10 +91,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-pd-5hG">
-                                            <rect key="frame" x="16" y="34.5" width="255" height="21"/>
+                                            <rect key="frame" x="15" y="34.5" width="256" height="21"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="&lt;&lt;LABEL&gt;&gt;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikv-VX-W4U">
-                                                    <rect key="frame" x="0.0" y="0.0" width="255" height="21"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="256" height="21"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -110,12 +119,12 @@
                                         </view>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="pcn-hQ-G98" secondAttribute="bottom" constant="0.5" id="5UY-W6-xTg"/>
                                         <constraint firstAttribute="trailing" secondItem="pcn-hQ-G98" secondAttribute="trailing" id="6XR-zZ-hGs"/>
                                         <constraint firstItem="pcn-hQ-G98" firstAttribute="top" secondItem="aav-Er-4Ow" secondAttribute="top" id="Aud-Lu-mvv"/>
                                         <constraint firstItem="pcn-hQ-G98" firstAttribute="leading" secondItem="KKQ-pd-5hG" secondAttribute="trailing" constant="15" id="Avz-kl-IWz"/>
-                                        <constraint firstItem="pcn-hQ-G98" firstAttribute="width" secondItem="pcn-hQ-G98" secondAttribute="height" id="K1D-pM-cgE"/>
                                         <constraint firstItem="KKQ-pd-5hG" firstAttribute="centerY" secondItem="aav-Er-4Ow" secondAttribute="centerY" id="TQU-eN-Jbt"/>
-                                        <constraint firstItem="KKQ-pd-5hG" firstAttribute="leading" secondItem="aav-Er-4Ow" secondAttribute="leading" constant="16" id="w1j-qM-QS9"/>
+                                        <constraint firstItem="KKQ-pd-5hG" firstAttribute="leading" secondItem="aav-Er-4Ow" secondAttribute="leading" constant="15" id="w1j-qM-QS9"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -190,6 +199,9 @@
                                     <constraint firstItem="hye-GJ-ZhT" firstAttribute="centerX" secondItem="siO-gz-ACz" secondAttribute="centerX" id="Hwc-Wu-V0u"/>
                                     <constraint firstAttribute="bottom" secondItem="hye-GJ-ZhT" secondAttribute="bottom" constant="8" id="VY3-Dl-tib"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="label" destination="hye-GJ-ZhT" id="CPt-08-Uqp"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -201,6 +213,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="EKh-aL-aOd"/>
                     </view>
+                    <connections>
+                        <outlet property="cameraView" destination="siO-gz-ACz" id="s8p-Bq-Gdj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5mL-31-p6F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -39,7 +39,7 @@ class MoodsTableViewController: UITableViewController, SegueHandler {
     fileprivate var observer: ManagedObjectObserver?
     
     fileprivate func setupTableView() {
-        tableView.rowHeight = UITableView.automaticDimension
+        tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 100
         let request = Mood.sortedFetchRequest
         request.fetchBatchSize = 20
@@ -56,4 +56,3 @@ extension MoodsTableViewController: TableViewDataSourceDelegate {
         cell.configure(for: object)
     }
 }
-

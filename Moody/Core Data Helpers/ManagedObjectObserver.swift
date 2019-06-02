@@ -9,7 +9,6 @@
 import Foundation
 import CoreData
 
-
 final class ManagedObjectObserver {
     enum ChangeType {
         case delete
@@ -25,7 +24,7 @@ final class ManagedObjectObserver {
     }
     
     deinit {
-        NotificationCenter.default.removeObserver(token ?? <#default value#>)
+        NotificationCenter.default.removeObserver(token)
     }
     
     // MARK: Private
@@ -44,3 +43,4 @@ final class ManagedObjectObserver {
         return nil
     }
 }
+

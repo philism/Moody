@@ -12,13 +12,14 @@ final class Mood: NSManagedObject {
     @NSManaged fileprivate(set) var date: Date
     @NSManaged fileprivate(set) var colors: [UIColor]
     
-    static func insert(into context: NSManagedObjectContext, image: UIImage) -> Mood {
+   static func insert(into context: NSManagedObjectContext, image: UIImage) -> Mood {
         let mood: Mood = context.insertObject()
         mood.colors = image.moodColors
         mood.date = Date()
         return mood
     }
 }
+
 
 extension Mood: Managed {
     static var defaultSortDescriptors: [NSSortDescriptor] {

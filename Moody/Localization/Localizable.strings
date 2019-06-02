@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Moody
+
+  Created by Philip Smith on 6/1/19.
+  Copyright © 2019 Philip Smith. All rights reserved.
+*/
+
+
+"CameraView.tapToCapture" = "Tap to Capture Mood";
+"CameraView.needAccess" = "Moody needs camera & location access";
+
+"Mood.dateComponentFormat" = "%@ ago";
+

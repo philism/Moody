@@ -20,7 +20,7 @@ class RootViewController: UIViewController, SegueHandler {
     var managedObjectContext: NSManagedObjectContext!
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        switch SegueIdentifier(for: segue) {
+        switch segueIdentifier(for: segue) {
         case .embedNavigation:
             guard let nc = segue.destination as? UINavigationController,
                 let vc = nc.viewControllers.first as? MoodsTableViewController

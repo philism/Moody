@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		461691BD2299A20C001124DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461691BC2299A20C001124DE /* AppDelegate.swift */; };
-		461691BF2299A20C001124DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461691BE2299A20C001124DE /* ViewController.swift */; };
 		461691C22299A20C001124DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461691C02299A20C001124DE /* Main.storyboard */; };
 		461691C42299A210001124DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461691C32299A210001124DE /* Assets.xcassets */; };
 		461691C72299A210001124DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461691C52299A210001124DE /* LaunchScreen.storyboard */; };
@@ -31,12 +30,26 @@
 		4630433B229C3AD100FCBDAE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630433A229C3AD100FCBDAE /* Utilities.swift */; };
 		4630433D229C3AE800FCBDAE /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630433C229C3AE800FCBDAE /* CaptureSession.swift */; };
 		4630433F229C3B0100FCBDAE /* IconGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4630433E229C3B0100FCBDAE /* IconGenerator.swift */; };
+		468876A122A36437009DF152 /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4688769C22A36437009DF152 /* Project.xcconfig */; };
+		468876A222A36437009DF152 /* Warnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4688769D22A36437009DF152 /* Warnings.xcconfig */; };
+		468876A322A36437009DF152 /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4688769E22A36437009DF152 /* Project-Release.xcconfig */; };
+		468876A422A36437009DF152 /* App-Target.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4688769F22A36437009DF152 /* App-Target.xcconfig */; };
+		468876A522A36437009DF152 /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 468876A022A36437009DF152 /* Project-Debug.xcconfig */; };
+		46DF410A22A2EA750080BF23 /* RandomNumbers.mm in Sources */ = {isa = PBXBuildFile; fileRef = 46DF40FA22A2EA750080BF23 /* RandomNumbers.mm */; };
+		46DF410C22A2EA750080BF23 /* LABPixel+ClusteredType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF40FE22A2EA750080BF23 /* LABPixel+ClusteredType.swift */; };
+		46DF410D22A2EA750080BF23 /* KMeans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF40FF22A2EA750080BF23 /* KMeans.swift */; };
+		46DF410E22A2EA750080BF23 /* DominantColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF410222A2EA750080BF23 /* DominantColors.swift */; };
+		46DF410F22A2EA750080BF23 /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF410322A2EA750080BF23 /* Memoization.swift */; };
+		46DF411022A2EA750080BF23 /* ColorDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF410422A2EA750080BF23 /* ColorDifference.swift */; };
+		46DF411122A2EA750080BF23 /* PlatformExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF410522A2EA750080BF23 /* PlatformExtensions.swift */; };
+		46DF411422A2EA750080BF23 /* ColorSpaceConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF410922A2EA750080BF23 /* ColorSpaceConversion.swift */; };
+		46DF411722A2EBBC0080BF23 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF411622A2EBBC0080BF23 /* Localizable.swift */; };
+		46DF411922A2EC000080BF23 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46DF411822A2EC000080BF23 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		461691B92299A20C001124DE /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		461691BC2299A20C001124DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		461691BE2299A20C001124DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		461691C12299A20C001124DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		461691C32299A210001124DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461691C62299A210001124DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +73,26 @@
 		4630433A229C3AD100FCBDAE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		4630433C229C3AE800FCBDAE /* CaptureSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureSession.swift; sourceTree = "<group>"; };
 		4630433E229C3B0100FCBDAE /* IconGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGenerator.swift; sourceTree = "<group>"; };
+		4688769A22A35BF1009DF152 /* Moody-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moody-Bridging-Header.h"; sourceTree = "<group>"; };
+		4688769C22A36437009DF152 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		4688769D22A36437009DF152 /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		4688769E22A36437009DF152 /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		4688769F22A36437009DF152 /* App-Target.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "App-Target.xcconfig"; sourceTree = "<group>"; };
+		468876A022A36437009DF152 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		46DF40A622A2E2CD0080BF23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		46DF40FA22A2EA750080BF23 /* RandomNumbers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RandomNumbers.mm; sourceTree = "<group>"; };
+		46DF40FE22A2EA750080BF23 /* LABPixel+ClusteredType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LABPixel+ClusteredType.swift"; sourceTree = "<group>"; };
+		46DF40FF22A2EA750080BF23 /* KMeans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMeans.swift; sourceTree = "<group>"; };
+		46DF410022A2EA750080BF23 /* DominantColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DominantColor.h; sourceTree = "<group>"; };
+		46DF410122A2EA750080BF23 /* ColorSpaceConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSpaceConversion.h; sourceTree = "<group>"; };
+		46DF410222A2EA750080BF23 /* DominantColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DominantColors.swift; sourceTree = "<group>"; };
+		46DF410322A2EA750080BF23 /* Memoization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memoization.swift; sourceTree = "<group>"; };
+		46DF410422A2EA750080BF23 /* ColorDifference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDifference.swift; sourceTree = "<group>"; };
+		46DF410522A2EA750080BF23 /* PlatformExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformExtensions.swift; sourceTree = "<group>"; };
+		46DF410822A2EA750080BF23 /* RandomNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomNumbers.h; sourceTree = "<group>"; };
+		46DF410922A2EA750080BF23 /* ColorSpaceConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSpaceConversion.swift; sourceTree = "<group>"; };
+		46DF411622A2EBBC0080BF23 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		46DF411822A2EC000080BF23 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,17 +125,18 @@
 		461691BB2299A20C001124DE /* Moody */ = {
 			isa = PBXGroup;
 			children = (
+				4688769B22A3640C009DF152 /* Config */,
+				46DF411522A2EB910080BF23 /* Localization */,
 				4630432F229C3A0F00FCBDAE /* Core Data Helpers */,
 				46169253229AFE2C001124DE /* Views */,
 				46169248229AF551001124DE /* Helpers */,
 				46169245229AF4DD001124DE /* View Controllers */,
 				461692392299B345001124DE /* Model */,
 				461691BC2299A20C001124DE /* AppDelegate.swift */,
-				461691BE2299A20C001124DE /* ViewController.swift */,
 				461691C02299A20C001124DE /* Main.storyboard */,
 				461691C32299A210001124DE /* Assets.xcassets */,
 				461691C52299A210001124DE /* LaunchScreen.storyboard */,
-				461691C82299A210001124DE /* Info.plist */,
+				4688769A22A35BF1009DF152 /* Moody-Bridging-Header.h */,
 			);
 			path = Moody;
 			sourceTree = "<group>";
@@ -110,6 +144,7 @@
 		461692392299B345001124DE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				46DF40F922A2EA750080BF23 /* DominantColor */,
 				461692282299AD7F001124DE /* Moody.xcdatamodeld */,
 				4616923A2299B35C001124DE /* MoodyStack.swift */,
 				461692372299B0F0001124DE /* Mood.swift */,
@@ -159,6 +194,46 @@
 				46304338229C3AB000FCBDAE /* ManagedObjectObserver.swift */,
 			);
 			path = "Core Data Helpers";
+			sourceTree = "<group>";
+		};
+		4688769B22A3640C009DF152 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				461691C82299A210001124DE /* Info.plist */,
+				4688769F22A36437009DF152 /* App-Target.xcconfig */,
+				468876A022A36437009DF152 /* Project-Debug.xcconfig */,
+				4688769E22A36437009DF152 /* Project-Release.xcconfig */,
+				4688769C22A36437009DF152 /* Project.xcconfig */,
+				4688769D22A36437009DF152 /* Warnings.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		46DF40F922A2EA750080BF23 /* DominantColor */ = {
+			isa = PBXGroup;
+			children = (
+				46DF410022A2EA750080BF23 /* DominantColor.h */,
+				46DF410222A2EA750080BF23 /* DominantColors.swift */,
+				46DF410822A2EA750080BF23 /* RandomNumbers.h */,
+				46DF40FA22A2EA750080BF23 /* RandomNumbers.mm */,
+				46DF410122A2EA750080BF23 /* ColorSpaceConversion.h */,
+				46DF410922A2EA750080BF23 /* ColorSpaceConversion.swift */,
+				46DF410422A2EA750080BF23 /* ColorDifference.swift */,
+				46DF40FE22A2EA750080BF23 /* LABPixel+ClusteredType.swift */,
+				46DF40FF22A2EA750080BF23 /* KMeans.swift */,
+				46DF410322A2EA750080BF23 /* Memoization.swift */,
+				46DF410522A2EA750080BF23 /* PlatformExtensions.swift */,
+			);
+			path = DominantColor;
+			sourceTree = "<group>";
+		};
+		46DF411522A2EB910080BF23 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				46DF411622A2EBBC0080BF23 /* Localizable.swift */,
+				46DF411822A2EC000080BF23 /* Localizable.strings */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +295,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				461691C72299A210001124DE /* LaunchScreen.storyboard in Resources */,
+				468876A322A36437009DF152 /* Project-Release.xcconfig in Resources */,
+				46DF411922A2EC000080BF23 /* Localizable.strings in Resources */,
 				461691C42299A210001124DE /* Assets.xcassets in Resources */,
+				468876A222A36437009DF152 /* Warnings.xcconfig in Resources */,
 				461691C22299A20C001124DE /* Main.storyboard in Resources */,
+				468876A522A36437009DF152 /* Project-Debug.xcconfig in Resources */,
+				468876A122A36437009DF152 /* Project.xcconfig in Resources */,
+				468876A422A36437009DF152 /* App-Target.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,19 +313,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46DF410C22A2EA750080BF23 /* LABPixel+ClusteredType.swift in Sources */,
+				46DF411122A2EA750080BF23 /* PlatformExtensions.swift in Sources */,
+				46DF411422A2EA750080BF23 /* ColorSpaceConversion.swift in Sources */,
 				46169257229AFE67001124DE /* MoodTableViewCell.swift in Sources */,
 				46304335229C3A8000FCBDAE /* NSManagedObjectContext+Observers.swift in Sources */,
 				461692382299B0F0001124DE /* Mood.swift in Sources */,
+				46DF410A22A2EA750080BF23 /* RandomNumbers.mm in Sources */,
 				4630433D229C3AE800FCBDAE /* CaptureSession.swift in Sources */,
+				46DF411722A2EBBC0080BF23 /* Localizable.swift in Sources */,
+				46DF411022A2EA750080BF23 /* ColorDifference.swift in Sources */,
 				46169259229AFE84001124DE /* CameraView.swift in Sources */,
 				46169252229AF702001124DE /* CameraViewController.swift in Sources */,
-				461691BF2299A20C001124DE /* ViewController.swift in Sources */,
 				46304337229C3A9B00FCBDAE /* Managed.swift in Sources */,
 				46169255229AFE4B001124DE /* MoodView.swift in Sources */,
 				4616924E229AF6AB001124DE /* MoodsTableViewController.swift in Sources */,
+				46DF410E22A2EA750080BF23 /* DominantColors.swift in Sources */,
 				46169247229AF506001124DE /* RootViewController.swift in Sources */,
 				4616924C229AF577001124DE /* SegueHandler.swift in Sources */,
 				4616922A2299AD7F001124DE /* Moody.xcdatamodeld in Sources */,
+				46DF410F22A2EA750080BF23 /* Memoization.swift in Sources */,
+				46DF410D22A2EA750080BF23 /* KMeans.swift in Sources */,
 				461691BD2299A20C001124DE /* AppDelegate.swift in Sources */,
 				4630433B229C3AD100FCBDAE /* Utilities.swift in Sources */,
 				4616923B2299B35C001124DE /* MoodyStack.swift in Sources */,
@@ -263,6 +352,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				461691C12299A20C001124DE /* Base */,
+				46DF40A622A2E2CD0080BF23 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -280,6 +370,7 @@
 /* Begin XCBuildConfiguration section */
 		461691C92299A210001124DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468876A022A36437009DF152 /* Project-Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -341,6 +432,7 @@
 		};
 		461691CA2299A210001124DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4688769E22A36437009DF152 /* Project-Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -396,37 +488,40 @@
 		};
 		461691CC2299A210001124DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4688769F22A36437009DF152 /* App-Target.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UJ9EQRTX9;
-				INFOPLIST_FILE = Moody/Info.plist;
+				INFOPLIST_FILE = Moody/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = tech.phils.Moody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		461691CD2299A210001124DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4688769F22A36437009DF152 /* App-Target.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5UJ9EQRTX9;
-				INFOPLIST_FILE = Moody/Info.plist;
+				INFOPLIST_FILE = Moody/Config/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = tech.phils.Moody;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

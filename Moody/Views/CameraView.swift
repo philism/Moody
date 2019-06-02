@@ -52,4 +52,3 @@ class CameraView: UIView {
     
     
 }
-
